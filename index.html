@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ar" dir="rtl">
   <head>
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
@@ -41,18 +41,20 @@
       <div
         class="container-fluid container-xl position-relative d-flex align-items-center"
       >
-        <a href="index.html" class="logo d-flex align-items-center me-auto">
+        <a href="index.html" class="logo d-flex align-items-center ms-auto">
           <!-- Uncomment the line below if you also wish to use an image logo -->
           <img src="assets/img/logo bayan-02.png" alt="" />
-          <h1 class="sitename">Bayan</h1>
+          <div class="d-flex flex-column">
+            <h1 class="sitename">Bayan</h1>
+            <span class="fs-5">for packing</span>
+          </div>
         </a>
         <nav id="navmenu" class="navmenu">
           <ul>
-            <li><a href="#hero" class="">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#team">Team</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="#hero" class="">الرئيسية</a></li>
+            <li><a href="#about">عن الشركة</a></li>
+            <li><a href="#services">الخدمات</a></li>
+            <li><a href="#contact">اتصل بنا</a></li>
           </ul>
           <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
         </nav>
@@ -67,18 +69,17 @@
               class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center"
               data-aos="zoom-out"
             >
-              <h1 class="">Better Solutions For Your Business</h1>
-              <p class="fs-6">
-                For more than 13 years, we have been providing design and
-                printing solutions with experience, professionalism and high
-                quality!
+              <h1 class="pb-3">حلول أفضل لمشروعك</h1>
+              <p class="fs-5">
+                منذ أكثر من 13 عامًا، نقدم حلول التصميم والطباعة بخبرة واحترافية
+                وجودة عالية!
               </p>
               <div class="d-flex">
-                <a
+                <!-- <a
                   href="https://www.youtube.com/watch?v=wTvgVDOmEWg"
                   class="glightbox btn-watch-video d-flex align-items-center"
                   ><i class="bi bi-play-circle"></i><span>Watch Video</span></a
-                >
+                > -->
               </div>
             </div>
             <div
@@ -100,43 +101,20 @@
       <!-- About Section -->
       <section id="about" class="about section">
         <!-- Section Title -->
-        <div class="container section-title" data-aos="fade-up">
-          <h2 class="">About Us</h2>
+        <div class="container text-center pb-2" data-aos="fade-up">
+          <h2 class="">نبذة عن الشركة</h2>
         </div>
         <!-- End Section Title -->
 
         <div class="container">
           <div class="row gy-4">
-            <div
-              class="col-lg-6 content"
-              data-aos="fade-up"
-              data-aos-delay="100"
-            >
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
-                asperiores maiores numquam porro dolor, quos in praesentium
-                delectus iste quis eveniet explicabo. Iusto similique minima
-                distinctio velit quo beatae cum..
-              </p>
-              <ul>
-                <li>
-                  <i class="bi bi-check2-circle"></i>
-                  <span>point 1.</span>
-                </li>
-                <li>
-                  <i class="bi bi-check2-circle"></i>
-                  <span>point 2.</span>
-                </li>
-                <li>
-                  <i class="bi bi-check2-circle"></i>
-                  <span>point 3.</span>
-                </li>
-              </ul>
-            </div>
-
-            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
-              <p>summary.</p>
-            </div>
+            <p class="fs-4">
+              بيان فور باكينج مطبعة وخدمات دعاية واعلان تخصصت فى هذا المجال منذ
+              عام 2011 وحتى الأن , و تقوم على تقديم الحلول التسويقية والخدمات
+              الإعلانية المتكاملة والمختلفة بالأشكال والطرق الحديثة والجديدة
+              والتى تتناسب مع الأنشطة المختلفة , كما ان لديها فريق عمل من
+              المبدعون والمحترفون فى عالم الدعاية والتسويق.
+            </p>
           </div>
         </div>
       </section>
@@ -145,102 +123,162 @@
       <!-- Services Section -->
       <section id="services" class="services section">
         <!-- Section Title -->
-        <div class="container text-center" data-aos="fade-up">
-          <h2>Services</h2>
+        <div class="container text-center mb-3" data-aos="fade-up">
+          <h2>الخدمات</h2>
         </div>
         <!-- End Section Title -->
 
         <div class="container">
           <div class="row gy-4">
             <div
-              class="col-xl-4 col-md-6 d-flex"
+              class="d-flex"
               data-aos="fade-up"
               data-aos-delay="100"
+              id="printing"
             >
               <div class="service-item position-relative">
-                <div class="icon"><i class="bi bi-activity icon"></i></div>
-                <h4>Profile design & print</h4>
+                <div class="icon text-center">
+                  <i class="bi bi-printer-fill icon"></i>
+                </div>
+                <h4 class="text-center">خدمات الطباعة</h4>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Dicta, consectetur. Tenetur alias sit facilis. Assumenda nam
-                  porro corporis ipsam repellendus vero atque. In rem, ad ex
-                  neque praesentium omnis deserunt.
+                  وهى من أهم وسائل الدعاية لذلك تعمل الشركة على تميز المطبوعات
+                  الدعائية من حيث الجودة العالية والشكل المميز , حيث نقوم بتنفيذ
+                  المطبوعات بجودة عالية وأسعار منافسة ومن أشكال هذه المطبوعات :
+                  ( الكروت الشخصية , بروشور , فولدر , فلايرز , منيو , خطاب شركة
+                  ، أظرف ، بوستر , نتيجة مكتب نتيجة حائط , أجندات , كوستر فل ،
+                  ماجناتيك ، بلوك نوت , كتالوجات , مجلات ، كفر سى دى , استيكر سى
+                  دى ، إمساكيات رمضان , علبة مناديل , دفاتر الفواتير والايصالات
+                  , كتب جامعات , العلب , طباعة ونسخ CDطباعة كل ما يلزم المطاعم
+                  من ( مناديل – شاليموه – كوسترز – مفرش ورقى – دفاتر كابتن أوردر
+                  – طباعة يونيفورم – طباعة كابات – وعمل صناديق الدليفرى الخاصة
+                  بحفظ الوجبات) طباعة الاستيكر رول.
                 </p>
               </div>
             </div>
             <!-- End Service Item -->
 
             <div
-              class="col-xl-4 col-md-6 d-flex"
+              class="d-flex"
               data-aos="fade-up"
               data-aos-delay="200"
+              id="design"
             >
               <div class="service-item position-relative">
-                <div class="icon">
-                  <i class="bi bi-bounding-box-circles icon"></i>
+                <div class="icon text-center">
+                  <i class="bi bi-building-fill-gear icon"></i>
                 </div>
-                <h4>Posts design</h4>
+                <h4 class="text-center">خدمات التصميم</h4>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Officia fuga fugit animi pariatur natus voluptatem id, maxime
-                  libero quos alias ad esse error tempore maiores dicta quas eum
-                  possimus. Beatae?
+                  خدمات التصميم هي مزيج من الأفكار المبتكرة والمثيرة للأهتمام
+                  يجمعهم قدرة المصمم في الدمج بين هذه العناصر لتصل التصاميم
+                  لمستوى عالي من الاحترافية. فنحن في الشركة نعمل دائمًا في
+                  التنوع والتجديد الدائم في التصاميم حتى يستمتع العميل إلى ما
+                  يشاهده على علامتك التجارية. لذلك تخصصنا في التصميم لنجعل
+                  أعمالك أكثر نجاحًا وتألقًا ونمتلك فريق مصممون مختصون مختارون
+                  بعناية مهما كان نوع التصميم الذي تحتاجه نبدع فيه لتتميز عن
+                  الباقيين حيث نحقق لك جودة التصميم المقدم، حتى بعد بدء المصمم
+                  بالعمل، إذا لم تعجبك المخرجات يمكن بكل بساطة التواصل مع الدعم
+                  الفني وطلب التعاقد مع مصمم آخر أو تغيير التصميم .
                 </p>
               </div>
             </div>
             <!-- End Service Item -->
 
             <div
-              class="col-xl-4 col-md-6 d-flex"
+              class="d-flex"
               data-aos="fade-up"
               data-aos-delay="300"
+              id="Emarketing"
             >
               <div class="service-item position-relative">
-                <div class="icon">
-                  <i class="bi bi-calendar4-week icon"></i>
+                <div class="icon text-center">
+                  <i class="bi bi-shop icon"></i>
                 </div>
-                <h4>Boxes design & print</h4>
+                <h4 class="text-center">تسويق إلكتروني و إدارة صفحات</h4>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Repudiandae incidunt nulla ratione porro enim, quia modi
-                  facere, dicta ducimus dolores dolorem adipisci labore
-                  doloremque magnam accusantium dolorum accusamus ex cum.
+                  هناك العديد من الفوائد التي يمكن جنيها عند الاستعانة بخدماتنا
+                  في التسويق الالكتروني، وفيما يلي أهمها: زيادة المبيعات
+                  والتحويلات: تساهم عبر الحملات التسويقية الفعالة في جذب العملاء
+                  وزيادة المبيعات وبالتالي تحسين عائد الاستثمار. الوصول للجمهور:
+                  تعزز الوصول لجمهور أوسع بحملات تسويقية دقيقة عبر القنوات
+                  والمنصات المختلفة. توفير الوقت والموارد: بإدارة مثالية للحملات
+                  التسويقية، تساهم في توفير الوقت والموارد للشركة ما يفتح المجال
+                  للتركيز على مجالات أخرى. الحصول على خبرة متخصصة: عبر فريق من
+                  الخبراء والمطلعين على اتجاهات التسويق الإلكتروني، تقدّم نصائح
+                  وتوصيات دقيقة وفعالة من أجل تحسين أداء الشركة. تحسين صورة
+                  العلامة التجارية: من خلال إنشاء محتوى جذاب يلفت أنظار العملاء
+                  ويدفعهم للتفاعل معه، بالإضافة إلى تعزيز صورة العلامة التجارية
+                  وكذلك تحسين سمعتها في السوق وبين العملاء.
                 </p>
               </div>
             </div>
             <!-- End Service Item -->
 
             <div
-              class="col-xl-4 col-md-6 d-flex"
+              class="d-flex"
               data-aos="fade-up"
               data-aos-delay="400"
+              id="photography"
             >
               <div class="service-item position-relative">
-                <div class="icon"><i class="bi bi-broadcast icon"></i></div>
-                <h4>Identity design & print</h4>
+                <div class="icon text-center">
+                  <i class="bi bi-camera-fill icon"></i>
+                </div>
+                <h4 class="text-center">تصوير منتجات</h4>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
-                  nesciunt quisquam laboriosam, odio nostrum sit sint, vitae
-                  laudantium reiciendis libero, a architecto hic iusto
-                  praesentium sed quibusdam odit error labore?
+                  تعتمد هذه الخدمات على مصورين ومنتجين احترافيين، ليساعدوك على
+                  إيصال أفكارك وعروضك وخدماتك من خلال الفيديوهات القصيرة
+                  والطويلة، والتي تحتوي على مؤثرات بصرية وكتابات وموسيقى وتعليق
+                  صوتي، حيث إن هذه الخدمة تعتبر من أفضل الخدمات التي أثبتت
+                  فعاليتها في مجال التسويق الإلكتروني مقارنة بخدمة التصميم
+                  الجرافيكي.
                 </p>
               </div>
             </div>
             <!-- End Service Item -->
 
             <div
-              class="col-xl-4 col-md-6 d-flex"
+              class="d-flex"
               data-aos="fade-up"
               data-aos-delay="400"
+              id="Consultations"
             >
               <div class="service-item position-relative">
-                <div class="icon"><i class="bi bi-broadcast icon"></i></div>
-                <h4>Labels design & print</h4>
+                <div class="icon text-center">
+                  <i class="bi bi-person-workspace icon"></i>
+                </div>
+                <h4 class="text-center">استشارات تسويقية وبيعية</h4>
                 <p>
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Dolore maiores modi nobis possimus aliquam? Itaque sit magnam
-                  delectus neque blanditiis explicabo dolor officiis nostrum
-                  ipsum doloremque. Itaque neque voluptatem suscipit.
+                  تكتسب الاستشارات التسويقية أهميتها في أنها تمثل المحور الأساسي
+                  لنجاح أى شركة ، والاستشارات التسويقية الناجحة والدقيقة تستطيع
+                  المساعدة فى زيادة المبيعات و تطوير إدارة التسويق الحالية و
+                  تحديد مدى قدرة أي منتج أو خدمة على اختراق السوق أو فتح أسواق
+                  جديدة والفوز بشريحة من الطلب في ظل المنافسة القوية من المنتجات
+                  المحلية والسلع المستوردة وتصميم وتطوير كافة عناصر نظم إدارة
+                  التسويق والمبيعات والتسويق الرقمى ..
+                </p>
+              </div>
+            </div>
+            <!-- End Service Item -->
+            <div
+              class="d-flex"
+              data-aos="fade-up"
+              data-aos-delay="400"
+              id="webdesign"
+            >
+              <div class="service-item position-relative">
+                <div class="icon text-center">
+                  <i class="bi bi-browser-chrome icon"></i>
+                </div>
+                <h4 class="text-center">تصميم المواقع</h4>
+                <p>
+                  نصمم مواقع ويب عصرية ومتجاوبة مع جميع الأجهزة، سواء كنت ترغب
+                  في إنشاء موقع إلكتروني جديد لشركتك أو إعادة تصميم موقعك
+                  الإلكتروني الحالي. نقدم لك تصميمًا فريدًا وعالي الجودة يعكس
+                  هوية علامتك التجارية ويجذب الزوار. نستخدم أحدث التقنيات
+                  والأساليب في تصميم مواقع الويب لضمان حصولك على موقع تصميم سهل
+                  الاستخدام وجذاب بصريًا.
                 </p>
               </div>
             </div>
@@ -249,495 +287,11 @@
         </div>
       </section>
       <!-- /Services Section -->
-
-      <!-- Team Section -->
-      <section id="team" class="team section">
-        <!-- Section Title -->
-        <div class="container section-title" data-aos="fade-up">
-          <h2>Team</h2>
-          <p>
-            Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
-            consectetur velit
-          </p>
-        </div>
-        <!-- End Section Title -->
-
-        <div class="container">
-          <div class="row gy-4">
-            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-              <div class="team-member d-flex align-items-start">
-                <div class="pic">
-                  <img
-                    src="assets/img/team/team-1.jpg"
-                    class="img-fluid"
-                    alt=""
-                  />
-                </div>
-                <div class="member-info">
-                  <h4>Walter White</h4>
-                  <span>Chief Executive Officer</span>
-                  <p>
-                    Explicabo voluptatem mollitia et repellat qui dolorum quasi
-                  </p>
-                  <div class="social">
-                    <a href=""><i class="bi bi-twitter-x"></i></a>
-                    <a href=""><i class="bi bi-facebook"></i></a>
-                    <a href=""><i class="bi bi-instagram"></i></a>
-                    <a href=""> <i class="bi bi-linkedin"></i> </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- End Team Member -->
-
-            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
-              <div class="team-member d-flex align-items-start">
-                <div class="pic">
-                  <img
-                    src="assets/img/team/team-2.jpg"
-                    class="img-fluid"
-                    alt=""
-                  />
-                </div>
-                <div class="member-info">
-                  <h4>Sarah Jhonson</h4>
-                  <span>Product Manager</span>
-                  <p>
-                    Aut maiores voluptates amet et quis praesentium qui senda
-                    para
-                  </p>
-                  <div class="social">
-                    <a href=""><i class="bi bi-twitter-x"></i></a>
-                    <a href=""><i class="bi bi-facebook"></i></a>
-                    <a href=""><i class="bi bi-instagram"></i></a>
-                    <a href=""> <i class="bi bi-linkedin"></i> </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- End Team Member -->
-
-            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
-              <div class="team-member d-flex align-items-start">
-                <div class="pic">
-                  <img
-                    src="assets/img/team/team-3.jpg"
-                    class="img-fluid"
-                    alt=""
-                  />
-                </div>
-                <div class="member-info">
-                  <h4>William Anderson</h4>
-                  <span>CTO</span>
-                  <p>
-                    Quisquam facilis cum velit laborum corrupti fuga rerum quia
-                  </p>
-                  <div class="social">
-                    <a href=""><i class="bi bi-twitter-x"></i></a>
-                    <a href=""><i class="bi bi-facebook"></i></a>
-                    <a href=""><i class="bi bi-instagram"></i></a>
-                    <a href=""> <i class="bi bi-linkedin"></i> </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- End Team Member -->
-
-            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
-              <div class="team-member d-flex align-items-start">
-                <div class="pic">
-                  <img
-                    src="assets/img/team/team-4.jpg"
-                    class="img-fluid"
-                    alt=""
-                  />
-                </div>
-                <div class="member-info">
-                  <h4>Amanda Jepson</h4>
-                  <span>Accountant</span>
-                  <p>
-                    Dolorum tempora officiis odit laborum officiis et et
-                    accusamus
-                  </p>
-                  <div class="social">
-                    <a href=""><i class="bi bi-twitter-x"></i></a>
-                    <a href=""><i class="bi bi-facebook"></i></a>
-                    <a href=""><i class="bi bi-instagram"></i></a>
-                    <a href=""> <i class="bi bi-linkedin"></i> </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- End Team Member -->
-          </div>
-        </div>
-      </section>
-      <!-- /Team Section -->
-
-      <!-- Pricing Section -->
-      <section id="pricing" class="pricing section">
-        <!-- Section Title -->
-        <div class="container section-title" data-aos="fade-up">
-          <h2>Pricing</h2>
-          <p>
-            Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
-            consectetur velit
-          </p>
-        </div>
-        <!-- End Section Title -->
-
-        <div class="container">
-          <div class="row gy-4">
-            <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="100">
-              <div class="pricing-item">
-                <h3>Free Plan</h3>
-                <h4><sup>$</sup>0<span> / month</span></h4>
-                <ul>
-                  <li>
-                    <i class="bi bi-check"></i>
-                    <span>Quam adipiscing vitae proin</span>
-                  </li>
-                  <li>
-                    <i class="bi bi-check"></i>
-                    <span>Nec feugiat nisl pretium</span>
-                  </li>
-                  <li>
-                    <i class="bi bi-check"></i>
-                    <span>Nulla at volutpat diam uteera</span>
-                  </li>
-                  <li class="na">
-                    <i class="bi bi-x"></i>
-                    <span>Pharetra massa massa ultricies</span>
-                  </li>
-                  <li class="na">
-                    <i class="bi bi-x"></i>
-                    <span>Massa ultricies mi quis hendrerit</span>
-                  </li>
-                </ul>
-                <a href="#" class="buy-btn">Buy Now</a>
-              </div>
-            </div>
-            <!-- End Pricing Item -->
-
-            <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="200">
-              <div class="pricing-item featured">
-                <h3>Business Plan</h3>
-                <h4><sup>$</sup>29<span> / month</span></h4>
-                <ul>
-                  <li>
-                    <i class="bi bi-check"></i>
-                    <span>Quam adipiscing vitae proin</span>
-                  </li>
-                  <li>
-                    <i class="bi bi-check"></i>
-                    <span>Nec feugiat nisl pretium</span>
-                  </li>
-                  <li>
-                    <i class="bi bi-check"></i>
-                    <span>Nulla at volutpat diam uteera</span>
-                  </li>
-                  <li>
-                    <i class="bi bi-check"></i>
-                    <span>Pharetra massa massa ultricies</span>
-                  </li>
-                  <li>
-                    <i class="bi bi-check"></i>
-                    <span>Massa ultricies mi quis hendrerit</span>
-                  </li>
-                </ul>
-                <a href="#" class="buy-btn">Buy Now</a>
-              </div>
-            </div>
-            <!-- End Pricing Item -->
-
-            <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="300">
-              <div class="pricing-item">
-                <h3>Developer Plan</h3>
-                <h4><sup>$</sup>49<span> / month</span></h4>
-                <ul>
-                  <li>
-                    <i class="bi bi-check"></i>
-                    <span>Quam adipiscing vitae proin</span>
-                  </li>
-                  <li>
-                    <i class="bi bi-check"></i>
-                    <span>Nec feugiat nisl pretium</span>
-                  </li>
-                  <li>
-                    <i class="bi bi-check"></i>
-                    <span>Nulla at volutpat diam uteera</span>
-                  </li>
-                  <li>
-                    <i class="bi bi-check"></i>
-                    <span>Pharetra massa massa ultricies</span>
-                  </li>
-                  <li>
-                    <i class="bi bi-check"></i>
-                    <span>Massa ultricies mi quis hendrerit</span>
-                  </li>
-                </ul>
-                <a href="#" class="buy-btn">Buy Now</a>
-              </div>
-            </div>
-            <!-- End Pricing Item -->
-          </div>
-        </div>
-      </section>
-      <!-- /Pricing Section -->
-
-      <!-- Testimonials Section -->
-      <section id="testimonials" class="testimonials section">
-        <!-- Section Title -->
-        <div class="container section-title" data-aos="fade-up">
-          <h2>Testimonials</h2>
-          <p>
-            Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
-            consectetur velit
-          </p>
-        </div>
-        <!-- End Section Title -->
-
-        <div class="container" data-aos="fade-up" data-aos-delay="100">
-          <div class="swiper">
-            <script type="application/json" class="swiper-config">
-              {
-                "loop": true,
-                "speed": 600,
-                "autoplay": {
-                  "delay": 5000
-                },
-                "slidesPerView": "auto",
-                "pagination": {
-                  "el": ".swiper-pagination",
-                  "type": "bullets",
-                  "clickable": true
-                }
-              }
-            </script>
-            <div class="swiper-wrapper">
-              <div class="swiper-slide">
-                <div class="testimonial-item">
-                  <img
-                    src="assets/img/testimonials/testimonials-1.jpg"
-                    class="testimonial-img"
-                    alt=""
-                  />
-                  <h3>Saul Goodman</h3>
-                  <h4>Ceo &amp; Founder</h4>
-                  <div class="stars">
-                    <i class="bi bi-star-fill"></i
-                    ><i class="bi bi-star-fill"></i
-                    ><i class="bi bi-star-fill"></i
-                    ><i class="bi bi-star-fill"></i
-                    ><i class="bi bi-star-fill"></i>
-                  </div>
-                  <p>
-                    <i class="bi bi-quote quote-icon-left"></i>
-                    <span
-                      >Proin iaculis purus consequat sem cure digni ssim donec
-                      porttitora entum suscipit rhoncus. Accusantium quam,
-                      ultricies eget id, aliquam eget nibh et. Maecen aliquam,
-                      risus at semper.</span
-                    >
-                    <i class="bi bi-quote quote-icon-right"></i>
-                  </p>
-                </div>
-              </div>
-              <!-- End testimonial item -->
-
-              <div class="swiper-slide">
-                <div class="testimonial-item">
-                  <img
-                    src="assets/img/testimonials/testimonials-2.jpg"
-                    class="testimonial-img"
-                    alt=""
-                  />
-                  <h3>Sara Wilsson</h3>
-                  <h4>Designer</h4>
-                  <div class="stars">
-                    <i class="bi bi-star-fill"></i
-                    ><i class="bi bi-star-fill"></i
-                    ><i class="bi bi-star-fill"></i
-                    ><i class="bi bi-star-fill"></i
-                    ><i class="bi bi-star-fill"></i>
-                  </div>
-                  <p>
-                    <i class="bi bi-quote quote-icon-left"></i>
-                    <span
-                      >Export tempor illum tamen malis malis eram quae irure
-                      esse labore quem cillum quid cillum eram malis quorum
-                      velit fore eram velit sunt aliqua noster fugiat irure amet
-                      legam anim culpa.</span
-                    >
-                    <i class="bi bi-quote quote-icon-right"></i>
-                  </p>
-                </div>
-              </div>
-              <!-- End testimonial item -->
-
-              <div class="swiper-slide">
-                <div class="testimonial-item">
-                  <img
-                    src="assets/img/testimonials/testimonials-3.jpg"
-                    class="testimonial-img"
-                    alt=""
-                  />
-                  <h3>Jena Karlis</h3>
-                  <h4>Store Owner</h4>
-                  <div class="stars">
-                    <i class="bi bi-star-fill"></i
-                    ><i class="bi bi-star-fill"></i
-                    ><i class="bi bi-star-fill"></i
-                    ><i class="bi bi-star-fill"></i
-                    ><i class="bi bi-star-fill"></i>
-                  </div>
-                  <p>
-                    <i class="bi bi-quote quote-icon-left"></i>
-                    <span
-                      >Enim nisi quem export duis labore cillum quae magna enim
-                      sint quorum nulla quem veniam duis minim tempor labore
-                      quem eram duis noster aute amet eram fore quis sint
-                      minim.</span
-                    >
-                    <i class="bi bi-quote quote-icon-right"></i>
-                  </p>
-                </div>
-              </div>
-              <!-- End testimonial item -->
-
-              <div class="swiper-slide">
-                <div class="testimonial-item">
-                  <img
-                    src="assets/img/testimonials/testimonials-4.jpg"
-                    class="testimonial-img"
-                    alt=""
-                  />
-                  <h3>Matt Brandon</h3>
-                  <h4>Freelancer</h4>
-                  <div class="stars">
-                    <i class="bi bi-star-fill"></i
-                    ><i class="bi bi-star-fill"></i
-                    ><i class="bi bi-star-fill"></i
-                    ><i class="bi bi-star-fill"></i
-                    ><i class="bi bi-star-fill"></i>
-                  </div>
-                  <p>
-                    <i class="bi bi-quote quote-icon-left"></i>
-                    <span
-                      >Fugiat enim eram quae cillum dolore dolor amet nulla
-                      culpa multos export minim fugiat minim velit minim dolor
-                      enim duis veniam ipsum anim magna sunt elit fore quem
-                      dolore labore illum veniam.</span
-                    >
-                    <i class="bi bi-quote quote-icon-right"></i>
-                  </p>
-                </div>
-              </div>
-              <!-- End testimonial item -->
-
-              <div class="swiper-slide">
-                <div class="testimonial-item">
-                  <img
-                    src="assets/img/testimonials/testimonials-5.jpg"
-                    class="testimonial-img"
-                    alt=""
-                  />
-                  <h3>John Larson</h3>
-                  <h4>Entrepreneur</h4>
-                  <div class="stars">
-                    <i class="bi bi-star-fill"></i
-                    ><i class="bi bi-star-fill"></i
-                    ><i class="bi bi-star-fill"></i
-                    ><i class="bi bi-star-fill"></i
-                    ><i class="bi bi-star-fill"></i>
-                  </div>
-                  <p>
-                    <i class="bi bi-quote quote-icon-left"></i>
-                    <span
-                      >Quis quorum aliqua sint quem legam fore sunt eram irure
-                      aliqua veniam tempor noster veniam enim culpa labore duis
-                      sunt culpa nulla illum cillum fugiat legam esse veniam
-                      culpa fore nisi cillum quid.</span
-                    >
-                    <i class="bi bi-quote quote-icon-right"></i>
-                  </p>
-                </div>
-              </div>
-              <!-- End testimonial item -->
-            </div>
-            <div class="swiper-pagination"></div>
-          </div>
-        </div>
-      </section>
-      <!-- /Testimonials Section -->
-
-      <!-- Faq 2 Section -->
-      <section id="faq-2" class="faq-2 section">
-        <!-- Section Title -->
-        <div class="container text-center" data-aos="fade-up">
-          <h2>Frequently Asked Questions</h2>
-        </div>
-        <!-- End Section Title -->
-
-        <div class="container">
-          <div class="row justify-content-center">
-            <div class="col-lg-10">
-              <div class="faq-container">
-                <div
-                  class="faq-item faq-active"
-                  data-aos="fade-up"
-                  data-aos-delay="200"
-                >
-                  <i class="faq-icon bi bi-question-circle"></i>
-                  <h3>Question 1?</h3>
-                  <div class="faq-content">
-                    <p>Answer.</p>
-                  </div>
-                  <i class="faq-toggle bi bi-chevron-right"></i>
-                </div>
-                <!-- End Faq item-->
-
-                <div class="faq-item" data-aos="fade-up" data-aos-delay="400">
-                  <i class="faq-icon bi bi-question-circle"></i>
-                  <h3>Question 2?</h3>
-                  <div class="faq-content">
-                    <p>Answer.</p>
-                  </div>
-                  <i class="faq-toggle bi bi-chevron-right"></i>
-                </div>
-                <!-- End Faq item-->
-
-                <div class="faq-item" data-aos="fade-up" data-aos-delay="500">
-                  <i class="faq-icon bi bi-question-circle"></i>
-                  <h3>Question 3?</h3>
-                  <div class="faq-content">
-                    <p>Answer.</p>
-                  </div>
-                  <i class="faq-toggle bi bi-chevron-right"></i>
-                </div>
-                <!-- End Faq item-->
-
-                <div class="faq-item" data-aos="fade-up" data-aos-delay="600">
-                  <i class="faq-icon bi bi-question-circle"></i>
-                  <h3>Question 4?</h3>
-                  <div class="faq-content">
-                    <p>Answer.</p>
-                  </div>
-                  <i class="faq-toggle bi bi-chevron-right"></i>
-                </div>
-                <!-- End Faq item-->
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- /Faq 2 Section -->
-
       <!-- Contact Section -->
       <section id="contact" class="contact section">
         <!-- Section Title -->
         <div class="container section-title" data-aos="fade-up">
-          <h2>Contact Us</h2>
+          <h2>تواصل معنا</h2>
         </div>
         <!-- End Section Title -->
 
@@ -751,12 +305,9 @@
                   data-aos-delay="200"
                 >
                   <i class="bi bi-geo-alt flex-shrink-0"></i>
-                  <div>
-                    <h3>Address</h3>
-                    <p>
-                      101 Anabib Albitrul Street - Gesr Elswes - ElNozha, Cairo,
-                      Egypt
-                    </p>
+                  <div class="me-4">
+                    <h3>العنوان</h3>
+                    <p>101 انابيب البترول - جسر السويس -النزهة - القاهرة</p>
                   </div>
                 </div>
                 <!-- End Info Item -->
@@ -767,9 +318,9 @@
                   data-aos-delay="300"
                 >
                   <i class="bi bi-telephone flex-shrink-0"></i>
-                  <div>
-                    <h3>Call Us</h3>
-                    <p>+20 1068813713</p>
+                  <div class="me-4">
+                    <h3>اتصل بنا</h3>
+                    <p dir="ltr">+20 1068813713</p>
                   </div>
                 </div>
                 <!-- End Info Item -->
@@ -780,8 +331,8 @@
                   data-aos-delay="400"
                 >
                   <i class="bi bi-envelope flex-shrink-0"></i>
-                  <div>
-                    <h3>Email Us</h3>
+                  <div class="me-4">
+                    <h3>البريد الإلكتروني</h3>
                     <p>info@bayan4packing.com</p>
                   </div>
                 </div>
@@ -800,15 +351,12 @@
 
             <div class="col-lg-7">
               <form
-                action="forms/contact.php"
-                method="post"
-                class="php-email-form"
-                data-aos="fade-up"
-                data-aos-delay="200"
+                action="https://formsubmit.co/2f7d0a7f9c31888b34d3ea424fbc70a2 "
+                method="POST"
               >
                 <div class="row gy-4">
                   <div class="col-md-6">
-                    <label for="name-field" class="pb-2">Your Name</label>
+                    <label for="name-field" class="pb-2">الاسم</label>
                     <input
                       type="text"
                       name="name"
@@ -819,7 +367,9 @@
                   </div>
 
                   <div class="col-md-6">
-                    <label for="email-field" class="pb-2">Your Email</label>
+                    <label for="email-field" class="pb-2"
+                      >البريد الاكتروني</label
+                    >
                     <input
                       type="email"
                       class="form-control"
@@ -830,7 +380,7 @@
                   </div>
 
                   <div class="col-md-12">
-                    <label for="subject-field" class="pb-2">Subject</label>
+                    <label for="subject-field" class="pb-2">الموضوع</label>
                     <input
                       type="text"
                       class="form-control"
@@ -841,7 +391,7 @@
                   </div>
 
                   <div class="col-md-12">
-                    <label for="message-field" class="pb-2">Message</label>
+                    <label for="message-field" class="pb-2">الرسالة</label>
                     <textarea
                       class="form-control"
                       name="message"
@@ -852,13 +402,7 @@
                   </div>
 
                   <div class="col-md-12 text-center">
-                    <div class="loading">Loading</div>
-                    <div class="error-message"></div>
-                    <div class="sent-message">
-                      Your message has been sent. Thank you!
-                    </div>
-
-                    <button type="submit">Send Message</button>
+                    <button type="submit" class="btn btn-primary">إرسال</button>
                   </div>
                 </div>
               </form>
@@ -878,76 +422,73 @@
               <span class="sitename">Bayan for Packing - Advertising</span>
             </a>
             <div class="footer-contact pt-3">
-              <p>
-                101 Anabib Albitrul Street - Gesr Elswes - ElNozha, Cairo, Egypt
-              </p>
+              <p>101 انابيب البترول - جسر السويس -النزهة - القاهرة</p>
               <p class="mt-3">
-                <strong>Phone:</strong> <span>+20 106 88137 13</span>
+                <strong>رقم التليفون:</strong>
+                <span dir="ltr">+20 106 88137 13</span>
               </p>
               <p>
-                <strong>Email:</strong> <span>info@bayan4packing.com </span>
+                <strong>البريد الإلكتروني:</strong>
+                <span>info@bayan4packing.com </span>
               </p>
             </div>
           </div>
 
           <div class="col-lg-2 col-md-3 footer-links">
-            <h4>Useful Links</h4>
+            <h4>روابط هامة</h4>
             <ul>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">Home</a></li>
               <li>
-                <i class="bi bi-chevron-right"></i> <a href="#">About us</a>
-              </li>
-              <li>
-                <i class="bi bi-chevron-right"></i> <a href="#">Services</a>
+                <i class="bi bi-chevron-right"></i> <a href="#">الرئيسية</a>
               </li>
               <li>
                 <i class="bi bi-chevron-right"></i>
-                <a href="#">Terms of service</a>
+                <a href="#about">عن الشركة</a>
+              </li>
+              <li>
+                <i class="bi bi-chevron-right"></i>
+                <a href="#services">الخدمات</a>
               </li>
             </ul>
           </div>
 
-          <div class="col-lg-2 col-md-3 footer-links">
-            <h4>Our Services</h4>
+          <div class="col-lg-4 col-md-3 footer-links">
+            <h4>خدمات الشركة</h4>
             <ul>
               <li>
                 <i class="bi bi-chevron-right"></i>
-                <a href="#">Profile design & print </a>
+                <a href="#printing">خدمات الطباعة </a>
               </li>
               <li>
                 <i class="bi bi-chevron-right"></i>
-                <a href="#">Posts design </a>
+                <a href="#design">خدمات التصميم </a>
               </li>
               <li>
                 <i class="bi bi-chevron-right"></i>
-                <a href="#">Boxes design & print </a>
+                <a href="#Emarketing">تسويق إلكتروني و إدارة صفحات</a>
               </li>
               <li>
                 <i class="bi bi-chevron-right"></i>
-                <a href="#">Identity design & print </a>
+                <a href="#photography">تصوير منتجات </a>
               </li>
               <li>
                 <i class="bi bi-chevron-right"></i>
-                <a href="#">Labels design & print </a>
+                <a href="#Consultations">استشارات تسويقية وبيعية </a>
+              </li>
+              <li>
+                <i class="bi bi-chevron-right"></i>
+                <a href="#webdesign">تصميم المواقع </a>
               </li>
             </ul>
           </div>
 
-          <div class="col-lg-4 col-md-12">
-            <h4>Follow Us</h4>
-            <p>
-              Cras fermentum odio eu feugiat lide par naso tierra videa magna
-              derita valies
-            </p>
+          <div class="col-lg-2 col-md-12">
+            <h4>تابعنا عبر الفيس بوك</h4>
             <div class="social-links d-flex">
-              <a href=""><i class="bi bi-twitter-x fs-1"></i></a>
               <a
                 href="https://www.facebook.com/profile.php?id=61558921901935&mibextid=ZbWKwL"
                 target="_blank"
                 ><i class="bi bi-facebook fs-1"></i
               ></a>
-              <a href=""><i class="bi bi-instagram fs-1"></i></a>
-              <a href=""><i class="bi bi-linkedin fs-2"></i></a>
             </div>
           </div>
         </div>
